@@ -10,7 +10,11 @@ from random import choice
 while True:
     # Letting the user choose what he wants to watch, be it anime, series, movie.
     option = input("What do you want to watch?\n(Anime/Series/Movie): ")
-    if option == anime or Anime:
+    if option == 'anime' or 'Anime':
         # create a list for anime
-    anime = ['Your Name', 'Haikyuu', 'Black Clover', 'One Piece', 'Kimi Ni Todoke', 'Jujutsu Kaisen',
+        anime = ['Your Name', 'Haikyuu', 'Black Clover', 'One Piece', 'Kimi Ni Todoke', 'Jujutsu Kaisen',
              'Seven Deadly Sins']
+        print(choice(anime))
+    elif option == 'series' or 'Series':
+        series = ['Gilmore Girls', 'Greys Anatomy', 'Stranger Things', 'Sex Education', 'The Umbrella Academy',
+                  'Bridgerton', 'Queens Gambit']
