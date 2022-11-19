@@ -7,7 +7,10 @@ print("This is my interesting program about choosing a series")
 
 from random import choice
 
-# Letting the user choose what he wants to watch, be it anime, series, movie.
-option = input("What do you want to watch?\n(Anime/Series/Movie): ")
-
-
+while True:
+    # Letting the user choose what he wants to watch, be it anime, series, movie.
+    option = input("What do you want to watch?\n(Anime/Series/Movie): ")
+    if option == anime or Anime:
+        # create a list for anime
+    anime = ['Your Name', 'Haikyuu', 'Black Clover', 'One Piece', 'Kimi Ni Todoke', 'Jujutsu Kaisen',
+             'Seven Deadly Sins']
