@@ -19,8 +19,10 @@ while True:
              'Seven Deadly Sins']
     # create a list for series option
     series = ['Gilmore Girls', 'Greys Anatomy', 'Stranger Things', 'Sex Education', 'The Umbrella Academy',
-              'Bridgerton', 'Queens Gambit']
-    # create a
+              'Bridgerton', 'Queens Gambit', 'Euphoria', 'Money Heist']
+    # create a list for movie option
+    hw_movie = ['10 things I hate about you', 'Enola Homes', 'Wonder', 'Mean Girls', 'The Devil Wears Prada',
+                'Breakfast Club', 'Flipped', 'Narnia', 'Bridge to Terabithia']
     if option == '1':
         print(choice(anime))
     elif option  == '2':
