@@ -20,17 +20,19 @@ while True:
              'Naruto', 'HunterxHunter', 'Yowamushi Pedal', 'Doraemon']
     # create a list for series option
     series = ['Gilmore Girls', 'Greys Anatomy', 'Stranger Things', 'Sex Education', 'The Umbrella Academy',
-              'Bridgerton', 'Queens Gambit', 'Euphoria', 'Money Heist', 'Emily in Paris', ]
+              'Bridgerton', 'Queens Gambit', 'Euphoria', 'Money Heist', 'Emily in Paris', 'Lucifer', 'Our Beloved Summer',
+              'Hotel Del Luna', 'Hi Bye Mama', 'Little Women']
     # create a list for movie option
     hw_movie = ['10 things I hate about you', 'Enola Homes', 'Wonder', 'Mean Girls', 'The Devil Wears Prada',
-                'Breakfast Club', 'Flipped', 'Narnia', 'Bridge to Terabithia', 'Poltergeist', 'Insidious', 'The Notebook',
-                '']
+                'Breakfast Club', 'Flipped', 'Narnia', 'Bridge to Terabithia', 'Insidious', 'The Notebook',
+                'Old Guard', 'Barbie', 'Enchanted', 'Princess Diaries']
     filo_movie = ['Barcelona: A love untold', 'The Hows of Us', 'My Ex and Whys', 'Im Drunk, I love you',
                   'Kita Kita', 'Doll House', 'Goyo: Ang Batang Heneral', 'Heneral Luna', 'Four Sisters and A Wedding',
                   'Seven Sundays', 'Four sisters and a Wedding', 'Shes Dating the Gangster', 'Isang Daan Tula Para kay Stella',
                   'The Gifted', 'Unforgettable', 'Miss Granny']
     k_movie = ['On your Wedding Day', '20th Century Girl', 'Sweet and Sour', 'Seoul Vibe', 'Peninsula', 'Parasite',
-               'Train to Busan', 'Alive', 'The Call', '200 pound beauty']
+               'Train to Busan', 'Alive', 'The Call', '200 pound beauty', 'Tune-in for love', 'Midnight Runners', 'The Last Princess',
+               'Kingdom', 'Along with the Gods: The two world']
     others =['Three Idiots', 'PK', 'Taarezameenpar', 'Crazy little thing called love', 'Friend zone']
     if option == '1':
         print("This is a recommended anime for you:",(choice(anime)))
@@ -52,11 +54,12 @@ while True:
     else:
         print("Try again. Please input a valid code. ")
 
+# Asking the user if they want to try again.
     ask = input("Do you want to try again? (Y/N) ")
     if ask == 'Y':
         continue
     else:
-        print("Thank you for using this program.")
+        print("Thank you for using this program. Happy Watching!")
         break
 
 
