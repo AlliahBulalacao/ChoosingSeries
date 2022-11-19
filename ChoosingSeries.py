@@ -9,7 +9,7 @@ from random import choice
 
 while True:
     # Letting the user choose what he wants to watch, be it anime, series, movie.
-    print("Options:"
+    print("Options:\n"
           "1.Anime\n"
           "2.Series\n"
           "3.Movie")
@@ -19,13 +19,41 @@ while True:
              'Seven Deadly Sins']
     # create a list for series option
     series = ['Gilmore Girls', 'Greys Anatomy', 'Stranger Things', 'Sex Education', 'The Umbrella Academy',
-              'Bridgerton', 'Queens Gambit', 'Euphoria', 'Money Heist']
+              'Bridgerton', 'Queens Gambit', 'Euphoria', 'Money Heist', 'Emily in Paris']
     # create a list for movie option
     hw_movie = ['10 things I hate about you', 'Enola Homes', 'Wonder', 'Mean Girls', 'The Devil Wears Prada',
-                'Breakfast Club', 'Flipped', 'Narnia', 'Bridge to Terabithia']
+                'Breakfast Club', 'Flipped', 'Narnia', 'Bridge to Terabithia', 'Poltergeist', 'Insidious', 'The Notebook',
+                ]
+    filo_movie = ['Barcelona: A love untold', 'The Hows of Us', 'My Ex and Whys', 'Im Drunk, I love you',
+                  'Kita Kita', 'Doll House', 'Goyo: Ang Batang Heneral', 'Heneral Luna', 'Four Sisters and A Wedding',
+                  'Seven Sundays']
+    k_movie = ['On your Wedding Day', '20th Century Girl', 'Sweet and Sour', 'Seoul Vibe', 'Peninsula', 'Parasite',
+               'Train to Busan', 'Alive', 'The Call']
     if option == '1':
         print(choice(anime))
     elif option  == '2':
         print(choice(series))
     elif option =='3':
-        print(choice(movie))
+        for_movie = input("What kind of movie do you want to watch?\n"
+                          "1. Hollywood Movies\n"
+                          "2. Filipino Movies\n"
+                          "3. Korean Movies\n"
+                          "4. Others\n"
+                          "Answer: ")
+        if for_movie == '1':
+            print(choice(hw_movie))
+        elif for_movie == '2':
+            print(choice(filo_movie))
+        elif for_movie == '3':
+            print(choice(k_movie))
+    else:
+        print("Try again. Please input a valid code. ")
+
+    ask = input("Do you want to try again? (Y/N) ")
+    if ask == 'Y':
+        continue
+    else:
+        print("Thank you for using this program.")
+        break
+
+
